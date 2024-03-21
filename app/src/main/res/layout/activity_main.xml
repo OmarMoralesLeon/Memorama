@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:padding="8dp"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="* * * Memorama * * *"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        tools:targetApi="p" />
+
+    <TableRow>
+
+        <FrameLayout>
+
+            <ImageView
+                android:id="@+id/img0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_laptop"
+                android:tag="0" />
+
+            <ImageView
+                android:id="@+id/img0Rota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO"
+                android:onClick="procesarImagen"
+                android:src="@drawable/ic_broken"
+                android:tag="0" />
+        </FrameLayout>
+
+        <FrameLayout>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_laptop"
+                android:tag="1" />
+
+            <ImageView
+                android:id="@+id/img1Rota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO"
+                android:onClick="procesarImagen"
+                android:src="@drawable/ic_broken"
+                android:tag="1" />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow>
+
+        <FrameLayout>
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_laptop"
+                android:tag="2" />
+
+            <ImageView
+                android:id="@+id/img2Rota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO"
+                android:onClick="procesarImagen"
+                android:src="@drawable/ic_broken"
+                android:tag="2" />
+        </FrameLayout>
+
+        <FrameLayout>
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_laptop"
+                android:tag="3" />
+
+            <ImageView
+                android:id="@+id/img3Rota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO"
+                android:onClick="procesarImagen"
+                android:src="@drawable/ic_broken"
+                android:tag="3" />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow>
+
+        <FrameLayout>
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_laptop"
+                android:tag="4" />
+
+            <ImageView
+                android:id="@+id/img4Rota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO"
+                android:onClick="procesarImagen"
+                android:src="@drawable/ic_broken"
+                android:tag="4" />
+        </FrameLayout>
+
+        <FrameLayout>
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_laptop"
+                android:tag="5" />
+
+            <ImageView
+                android:id="@+id/img5Rota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO"
+                android:onClick="procesarImagen"
+                android:src="@drawable/ic_broken"
+                android:tag="5" />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow>
+
+        <FrameLayout>
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_laptop"
+                android:tag="6" />
+
+            <ImageView
+                android:id="@+id/img6Rota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO"
+                android:onClick="procesarImagen"
+                android:src="@drawable/ic_broken"
+                android:tag="6" />
+        </FrameLayout>
+
+        <FrameLayout>
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_laptop"
+                android:tag="7" />
+
+            <ImageView
+                android:id="@+id/img7Rota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="TODO"
+                android:onClick="procesarImagen"
+                android:src="@drawable/ic_broken"
+                android:tag="7" />
+        </FrameLayout>
+    </TableRow>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#DC0D0D"
+        android:onClick="reiniciarJuego"
+        android:text="Reiniciar Juego"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#DC0D0D"
+        android:text="Salir"
+        android:textSize="18sp" />
+
+</TableLayout>

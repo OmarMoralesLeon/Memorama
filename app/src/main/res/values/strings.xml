@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Memorama</string>
+    <string name="player1_0">player1: 0</string>
+    <string name="player2_0">player2: 0</string>
+</resources>
